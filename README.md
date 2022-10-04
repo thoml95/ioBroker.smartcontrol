@@ -92,6 +92,8 @@ This is just to provide you an overview of the adapter options.
 -->
 ### **WORK IN PROGRESS**
 * (oelison) migration to links in iobroker-community-adapters
+* (oelison) update due to open PR of original repo
+* (oelison) node testing to 12, 14, 16
 
 ### 1.2.1
 * (Mic-M) Enhancement: Now, all adapter config validations take place while saving the adapter configuration, and all identified errors are shown in a dialog. Addresses issue [#61](https://github.com/Mic-M/ioBroker.smartcontrol/issues/61)
