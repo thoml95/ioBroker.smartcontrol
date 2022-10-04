@@ -5,7 +5,7 @@ Hiermit kannst du als Ziel eine URL verwenden, z.B. `http://192.198.10.20/relay/
 
 | Spalte   |  Pflichtfeld |  Beschreibung |
 |----------|:------------:|-------|
-| ![image](https://github.com/Mic-M/ioBroker.smartcontrol/blob/master/admin/doc-md/img/check_box-24px.svg?raw=true) |  Ja          | Aktiviert/Deaktiviert diese Tabellenzeile. Falls nicht aktiviert, wird diese Tabellenzeile vom Adapter nicht beachtet. In den Adapter-Optionen, unter 'WEITERE OPTIONEN > Eingabe-Validierung' kannst du übrigens einstellen, dass auch deaktivierte Zeilen auf Gültigkeit geprüft werden. |
+| ![image](https://github.com/iobroker-community-adapters/ioBroker.smartcontrol/blob/master/admin/doc-md/img/check_box-24px.svg?raw=true) |  Ja          | Aktiviert/Deaktiviert diese Tabellenzeile. Falls nicht aktiviert, wird diese Tabellenzeile vom Adapter nicht beachtet. In den Adapter-Optionen, unter 'WEITERE OPTIONEN > Eingabe-Validierung' kannst du übrigens einstellen, dass auch deaktivierte Zeilen auf Gültigkeit geprüft werden. |
 | Name |    Ja   | Name deiner Wahl. Verbotene Zeichen: ``[ ] * , ; ' " ` < > \ ?`` |
 | URL zum Einschalten | Ja | Die entsprechende URL, die aufgerufen werden soll, z.B. `http://192.198.10.20/relay/0?turn=on`
 | URL zum Ausschalten| Nein | Hier optional eine URL, die die zum Ausschalten aufgerufen werden soll, z.B. `http://192.198.10.20/relay/0?turn=off`. Falls du dies leer lässt, wird nicht ausgeschaltet und auch keine Ausschalt-Datenpunkte angelegt.

@@ -2,7 +2,7 @@
 /**
  * ioBroker Smart Control Adapter
  *
- * @github  https://github.com/Mic-M/ioBroker.smartcontrol
+ * @github  https://github.com/iobroker-community-adapters/ioBroker.smartcontrol
  * @forum   https://forum.iobroker.net/topic/36728/
  * @author  Mic-M <https://github.com/Mic-M/ioBroker.smartcontrol>
  * @license MIT

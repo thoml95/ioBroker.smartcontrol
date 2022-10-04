@@ -5,42 +5,15 @@
 [![Downloads](https://img.shields.io/npm/dm/iobroker.smartcontrol.svg)](https://www.npmjs.com/package/iobroker.smartcontrol)
 ![Number of Installations (latest)](http://iobroker.live/badges/smartcontrol-installed.svg)
 ![Number of Installations (stable)](http://iobroker.live/badges/smartcontrol-stable.svg)
-[![Dependency Status](https://img.shields.io/david/Mic-M/iobroker.smartcontrol.svg)](https://david-dm.org/Mic-M/iobroker.smartcontrol)
-[![Known Vulnerabilities](https://snyk.io/test/github/Mic-M/ioBroker.smartcontrol/badge.svg)](https://snyk.io/test/github/Mic-M/ioBroker.smartcontrol)
+[![Known Vulnerabilities](https://snyk.io/test/github/iobroker-community-adapters/ioBroker.smartcontrol/badge.svg)](https://snyk.io/test/github/iobroker-community-adapters/ioBroker.smartcontrol)
 
 [![NPM](https://nodei.co/npm/iobroker.smartcontrol.png?downloads=true)](https://nodei.co/npm/iobroker.smartcontrol/)
 
-**Tests:** ![Test and Release](https://github.com/Mic-M/ioBroker.smartcontrol/workflows/Test%20and%20Release/badge.svg)
+**Tests:** ![Test and Release](https://github.com/iobroker-community-adapters/ioBroker.smartcontrol/workflows/Test%20and%20Release/badge.svg)
 
 ## Smart Control Adapter for ioBroker
 
-*[click here to jump to Introduction section below](#introduction)*
-
-This adapter would not exist without the awesome and valuable input from the ioBroker community related to UI, feature requests, testing and bug reports, etc. Many thanks to everyone who contributed!
-
-This as a summary of very positive feedback from the community I want to share with you 😊 (blush) (from oldest to newest, and in German):
-
-* *Ein toller Adapter und Entwicklungsarbeit!* [source](https://forum.iobroker.net/post/461724)
-* *Ich finde das Hilfssystem einfach Genial.👍* [source](https://forum.iobroker.net/post/463066)
-* *die Auswahl ist so viel viel Übersichtlicher! Bist mein absoluter Held ! 🙂 Die Eierlegende selbstversorgende Wollmilchsau ist am laufen.. 🙂* [source](https://forum.iobroker.net/post/470948)
-* *erstmal ein Dankeschön für die Arbeit. Möchte nicht wissen wieviele Stunden da drin stecken 👍* [source](https://forum.iobroker.net/post/474350)
-* *Also ich muss sagen: TOP Arbeit!* [source](https://forum.iobroker.net/post/476116)
-* *super, du hast echt klasse Ideen und setzt diese sehr Userfreundlich um!* [source](https://forum.iobroker.net/post/476117)
-* *Die Geschwindigkeit mit der Du den Adapter nach vorne treibst ist echt erschreckend, so schlimm und schnell das man manches Mal mit dem testen nicht hinterher kommt 👍 RESPEKTABEL* [source](https://forum.iobroker.net/post/477204)
-* *ich bin auch recht begeistert von dem Adapter, schöne Arbeit. Hab jetzt schon längere Zeit immer mal wieder verschiedene Systeme getestet, FHEM, Nodered und jetzt seit kurzem Iobroker. So schnell hab ich meine Lichtsteuerung über Bewegungsmelder noch nie hinbekommen.* [source](https://forum.iobroker.net/post/482899)
-* *super sache die du da gebaut hast 🙂* [source](https://forum.iobroker.net/post/485306)
-* *der Adapter ist bei mir im Einsatz und läuft sehr gut. Danke für Deine Arbeit.* [source](https://forum.iobroker.net/post/485463)
-* *ich finde es nahezu unfassbar mit welcher Hingabe und Geschwindigkeit Du hier den Adapter nach vorne bringst. RESPEKT<br>Bis jetzt konnte ich tatsächlich alles was ich so an Blockly´s hatte in den Adapter migrieren, echt toll.<br>Ich würde mir wünschen, wenn der Adapter so weit fertig ist, das Du Dir dein ein oder anderen Adapter vornimmst, "forkst" und diesen dann ebenfalls so usernah weiterentwickelst 🙄* [source](https://forum.iobroker.net/post/488090)
-* *erstmal Hut ab. Der Adapter ist echt gut gelungen und es lassen sich nach einer gewissen Einarbeitungszeit in die Adapterlogik sehr viele meiner Skripte damit adaptieren. (...) Trotzdem nochmal dickes Lob, viele Dinge laufen damit seit einiger Zeit reibungslos und übersichtlicher als via Skript. 👍* [source](https://forum.iobroker.net/post/492035)
-* *Danke für den coolen Adapter - da kann ich nur meinen Hut davor ziehen!* [source](https://forum.iobroker.net/post/496452)
-* *ein dickes Lob für den Adapter und Deine vorbildliche Arbeit 👍* [source](https://forum.iobroker.net/post/497110)
-* *vielen Dank für die wahnsinnig gute Arbeit!* [source](https://forum.iobroker.net/post/500373)
-* *Danke, man das Teil ist so mächtig geworden, aber GENIAL !* [source](https://forum.iobroker.net/post/500518)
-
-
-
-
-
+This adapter would not exist without Mic-M. He started this awsome adapter and bring it to a well working adapter. Due to personal issues he stopped the work on this. Thank you for your work. You will be welcome to take it over or work together on this very helpfull adapter. A lot of fans of this adapter was asking for continue this and this will happen inside of iobroker-community-adapters.
 
 ## Introduction
 
@@ -71,14 +44,14 @@ I have included all instructions right in the admin settings of this adapter.
 <sub>Reason: We are having a nice term [Medienbruch](https://de.wikipedia.org/wiki/Medienbruch) in the German language, which is an unnecessary requirement to 'break' the current medium and switch to a different medium (like different website, program, etc.) to execute/complete a task, etc. Since this is cumbersome, I have included all instructions in the admin settings of this adapter.</sub>
 
 Also, you can read most of these instructions here as well:
-* [**Basic Adapter Instructions**](https://github.com/Mic-M/ioBroker.smartcontrol/blob/master/admin/doc-md/start_en.md) - for German [click here (Deutsch)](https://github.com/Mic-M/ioBroker.smartcontrol/blob/master/admin/doc-md/start_de.md)
-* [**Target Devices**](https://github.com/Mic-M/ioBroker.smartcontrol/blob/master/admin/doc-md/table-target-devices_en.md) - for German [click here (Deutsch)](https://github.com/Mic-M/ioBroker.smartcontrol/blob/master/admin/doc-md/table-target-devices_de.md)
-* [**Additional Conditions**](https://github.com/Mic-M/ioBroker.smartcontrol/blob/master/admin/doc-md/table-conditions_en.md) - for German [click here (Deutsch)](https://github.com/Mic-M/ioBroker.smartcontrol/blob/master/admin/doc-md/table-conditions_de.md)
-* [**Triggers: Motion Sensors**](https://github.com/Mic-M/ioBroker.smartcontrol/blob/master/admin/doc-md/table-trigger-motion_en.md) - for German [click here (Deutsch)](https://github.com/Mic-M/ioBroker.smartcontrol/blob/master/admin/doc-md/table-trigger-motion_de.md)
-* [**Triggers: Other Devices (wall switch, etc.)**](https://github.com/Mic-M/ioBroker.smartcontrol/blob/master/admin/doc-md/table-trigger-devices_en.md) - for German [click here (Deutsch)](https://github.com/Mic-M/ioBroker.smartcontrol/blob/master/admin/doc-md/table-trigger-devices_de.md)
-* [**Triggers: Time-dependent**](https://github.com/Mic-M/ioBroker.smartcontrol/blob/master/admin/doc-md/table-trigger-times_en.md) - for German [click here (Deutsch)](https://github.com/Mic-M/ioBroker.smartcontrol/blob/master/admin/doc-md/table-trigger-times_de.md)
-* [**Zones**](https://github.com/Mic-M/ioBroker.smartcontrol/blob/master/admin/doc-md/table-zones_en.md) - for German [click here (Deutsch)](https://github.com/Mic-M/ioBroker.smartcontrol/blob/master/admin/doc-md/table-zones_de.md)
-* [**Execution Settings**](https://github.com/Mic-M/ioBroker.smartcontrol/blob/master/admin/doc-md/table-execution_en.md) - for German [click here (Deutsch)](https://github.com/Mic-M/ioBroker.smartcontrol/blob/master/admin/doc-md/table-execution_de.md)
+* [**Basic Adapter Instructions**](https://github.com/iobroker-community-adapters/ioBroker.smartcontrol/blob/master/admin/doc-md/start_en.md) - for German [click here (Deutsch)](https://github.com/iobroker-community-adapters/ioBroker.smartcontrol/blob/master/admin/doc-md/start_de.md)
+* [**Target Devices**](https://github.com/iobroker-community-adapters/ioBroker.smartcontrol/blob/master/admin/doc-md/table-target-devices_en.md) - for German [click here (Deutsch)](https://github.com/iobroker-community-adapters/ioBroker.smartcontrol/blob/master/admin/doc-md/table-target-devices_de.md)
+* [**Additional Conditions**](https://github.com/iobroker-community-adapters/ioBroker.smartcontrol/blob/master/admin/doc-md/table-conditions_en.md) - for German [click here (Deutsch)](https://github.com/iobroker-community-adapters/ioBroker.smartcontrol/blob/master/admin/doc-md/table-conditions_de.md)
+* [**Triggers: Motion Sensors**](https://github.com/iobroker-community-adapters/ioBroker.smartcontrol/blob/master/admin/doc-md/table-trigger-motion_en.md) - for German [click here (Deutsch)](https://github.com/iobroker-community-adapters/ioBroker.smartcontrol/blob/master/admin/doc-md/table-trigger-motion_de.md)
+* [**Triggers: Other Devices (wall switch, etc.)**](https://github.com/iobroker-community-adapters/ioBroker.smartcontrol/blob/master/admin/doc-md/table-trigger-devices_en.md) - for German [click here (Deutsch)](https://github.com/iobroker-community-adapters/ioBroker.smartcontrol/blob/master/admin/doc-md/table-trigger-devices_de.md)
+* [**Triggers: Time-dependent**](https://github.com/iobroker-community-adapters/ioBroker.smartcontrol/blob/master/admin/doc-md/table-trigger-times_en.md) - for German [click here (Deutsch)](https://github.com/iobroker-community-adapters/ioBroker.smartcontrol/blob/master/admin/doc-md/table-trigger-times_de.md)
+* [**Zones**](https://github.com/iobroker-community-adapters/ioBroker.smartcontrol/blob/master/admin/doc-md/table-zones_en.md) - for German [click here (Deutsch)](https://github.com/iobroker-community-adapters/ioBroker.smartcontrol/blob/master/admin/doc-md/table-zones_de.md)
+* [**Execution Settings**](https://github.com/iobroker-community-adapters/ioBroker.smartcontrol/blob/master/admin/doc-md/table-execution_en.md) - for German [click here (Deutsch)](https://github.com/iobroker-community-adapters/ioBroker.smartcontrol/blob/master/admin/doc-md/table-execution_de.md)
 
 ## Screenshots of adapter options (17-Sep-2020)
 
@@ -113,7 +86,12 @@ This is just to provide you an overview of the adapter options.
 * Adapter icon made by [freepik](https://www.flaticon.com/authors/freepik) from [flaticon.com](https://www.flaticon.com/).</sup></sub>
 
 ## Changelog
-
+<!--
+    Placeholder for the next version (at the beginning of the line):
+    ### **WORK IN PROGRESS**
+-->
+### **WORK IN PROGRESS**
+* (oelison) migration to links in iobroker-community-adapters
 
 ### 1.2.1
 * (Mic-M) Enhancement: Now, all adapter config validations take place while saving the adapter configuration, and all identified errors are shown in a dialog. Addresses issue [#61](https://github.com/Mic-M/ioBroker.smartcontrol/issues/61)
@@ -386,6 +364,7 @@ Change Log for 0.2.0:
 MIT License
 
 Copyright (c) 2020 Mic-M <iob.micm@gmail.com>
+Copyright (c) 2022 Oelison <iobrokersmartcontrol@sciphy.de>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

@@ -110,7 +110,7 @@ function load2(settings, onChange) {
                         <p class='translation-required'>
                             Your current ioBroker language is <strong>${systemLang.toUpperCase()}</strong>, however, the following instructions have not yet been translated into your language, so English is used as fallback.
                             If you are fluently speaking ${systemLang.toUpperCase()}, please help and translate into your language.
-                            The English file is <a target="_blank" href="https://github.com/Mic-M/ioBroker.smartcontrol/blob/master/admin/${mdFilePath}">located on Github</a>: <code>https://github.com/Mic-M/ioBroker.smartcontrol/blob/master/admin/${mdFilePath}</code>.
+                            The English file is <a target="_blank" href="https://github.com/iobroker-community-adapters/ioBroker.smartcontrol/blob/master/admin/${mdFilePath}">located on Github</a>: <code>https://github.com/iobroker-community-adapters/ioBroker.smartcontrol/blob/master/admin/${mdFilePath}</code>.
                             Please translate and provide a Github pull request for adding a new file '${newFilePath}' with your ${systemLang.toUpperCase()} translation. Thank you!
                         </p>
                     `).insertBefore('zero-md#' + mdId);
