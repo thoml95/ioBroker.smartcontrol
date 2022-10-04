@@ -36,7 +36,7 @@ You simply go through the individual options pages (tabs) as follows:
 
 ### By clicking on the dark blue highlighted headline you will get more information about the settings, example:
 
-![image](https://github.com/Mic-M/ioBroker.smartcontrol/blob/master/admin/doc-md/img/start_show-explanation.gif?raw=true)
+![image](https://github.com/iobroker-community-adapters/ioBroker.smartcontrol/blob/master/admin/doc-md/img/start_show-explanation.gif?raw=true)
 
 
 
@@ -44,12 +44,12 @@ You simply go through the individual options pages (tabs) as follows:
 
 Drop-down fields that offer several selectable values must be clicked "on the side". This is an issue of the ioBroker admin adapter, not of Smart Control. [The issue is reported and addressed](https://github.com/ioBroker/ioBroker.admin/issues/590) in the ioBroker admin adapter, and will come with the next update.
 
-![image](https://github.com/Mic-M/ioBroker.smartcontrol/blob/master/admin/doc-md/img/start_dropdown-ani.gif?raw=true)
+![image](https://github.com/iobroker-community-adapters/ioBroker.smartcontrol/blob/master/admin/doc-md/img/start_dropdown-ani.gif?raw=true)
 
 
 <br>Simple remedy: Just click on the blue button to the left of it and you will get a much better selection dialog:
 
-![image](https://github.com/Mic-M/ioBroker.smartcontrol/blob/master/admin/doc-md/img/start_open-dialog.png?raw=true)
+![image](https://github.com/iobroker-community-adapters/ioBroker.smartcontrol/blob/master/admin/doc-md/img/start_open-dialog.png?raw=true)
 
 
 </details>
@@ -63,7 +63,7 @@ Drop-down fields that offer several selectable values must be clicked "on the si
 
 Here you see all current astro times of your geo-coordinates, which you have set in the ioBroker-Admin-Options (wrench top left).
 
-![image](https://github.com/Mic-M/ioBroker.smartcontrol/blob/master/admin/doc-md/img/start_states-astro.png?raw=true)
+![image](https://github.com/iobroker-community-adapters/ioBroker.smartcontrol/blob/master/admin/doc-md/img/start_states-astro.png?raw=true)
 
 
 ### smartcontrol.x.info.log.zoneActivations.json
@@ -76,7 +76,7 @@ With <code>smartcontrol.x.info.log.zoneActivations.json</code> the adapter provi
 Here you can switch on and off individual rows for each options table (state 'active').
 <br>In addition you can change the time in seconds (state 'duration') and the brightness threshold (state 'briThreshold') for all motion sensors.
 
-![image](https://github.com/Mic-M/ioBroker.smartcontrol/blob/master/admin/doc-md/img/start_states-options-motion.png?raw=true)
+![image](https://github.com/iobroker-community-adapters/ioBroker.smartcontrol/blob/master/admin/doc-md/img/start_states-options-motion.png?raw=true)
 
 
 **Please note:** A change of these states causes a restart of the adapter instance so that the changes can take effect.
@@ -85,7 +85,7 @@ Here you can switch on and off individual rows for each options table (state 'ac
 
 For each table row under "1. TARGET DEVICES" the adapter adds linked states here. If you change these states, the original target state is changed accordingly, and vice versa.
 
-![image](https://github.com/Mic-M/ioBroker.smartcontrol/blob/master/admin/doc-md/img/start_states-target-devices.png?raw=true)
+![image](https://github.com/iobroker-community-adapters/ioBroker.smartcontrol/blob/master/admin/doc-md/img/start_states-target-devices.png?raw=true)
 
 
 ### smartcontrol.x.Test
@@ -93,7 +93,7 @@ For each table row under "1. TARGET DEVICES" the adapter adds linked states here
 Here you have states purely for testing the adapter. These states do not provide any functions or features and are only used to test the adapter. After the first installation of an instance of this adapter, the adapter options are preset with some of these states. For example, start testing by activating a trigger state, e.g. set 'smartcontrol.0.Test.trigger.Bathroom_motion' to 'true'. Then you check if something is triggered (based on the settings in '4. ZONES' etc.).
 <br>The ioBroker Log (ioBroker Admin > Log) provides detailed information. For debugging, please set the log level of the adapter instance to 'debug' to get much more information in the log.
 
-![image](https://github.com/Mic-M/ioBroker.smartcontrol/blob/master/admin/doc-md/img/start_states-test.png?raw=true)
+![image](https://github.com/iobroker-community-adapters/ioBroker.smartcontrol/blob/master/admin/doc-md/img/start_states-test.png?raw=true)
 
 </details>
 <!-- Markdown Collapsible Section - We must have an empty line below (per link above)  -->
@@ -110,14 +110,14 @@ The best way is to ask a question in the ioBroker forum, ideally you reference @
 
 First check the ioBroker log for all hints and follow them accordingly. If you are not sure if you have done everything correctly in the adapter settings, see above -> *Questions about usage, etc.*. 
 <br>If you really have an error caused by this adapter:
-1. go to [GitHub: Smart Control Issues](https://github.com/Mic-M/ioBroker.smartcontrol/issues) and open a new issue. 
+1. go to [GitHub: Smart Control Issues](https://github.com/iobroker-community-adapters/ioBroker.smartcontrol/issues) and open a new issue. 
 2. describe **in detail** the issue and step-by-step what you were doing when/before the bug occurred. Also set the log level of the adapter to "debug", reproduce the error and set the log output in code tags in the issue. ioBroker cuts off log lines, so please go directly to the log file (by clicking on "Download Log"). 
 3. add screenshots, if likely helpful for me as developer
 4. add the adapter options export, if possibly useful for troubleshooting for me, by clicking on the blue "arrow down" button in the top right corner of the SmartControl adapter options
 
 ### Enhancement/feature requests
 
-Open a new Github issue at [GitHub: Smart Control Issues](https://github.com/Mic-M/ioBroker.smartcontrol/issues), in English or German.
+Open a new Github issue at [GitHub: Smart Control Issues](https://github.com/iobroker-community-adapters/ioBroker.smartcontrol/issues), in English or German.
 
 
 </details>
