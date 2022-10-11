@@ -90,7 +90,7 @@ This is just to provide you an overview of the adapter options.
     Placeholder for the next version (at the beginning of the line):
     ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 1.2.2 (2022-10-11)
 * (oelison) migration to links in iobroker-community-adapters
 * (oelison) update due to open PR of original repo
 * (oelison) node testing to 12, 14, 16
@@ -103,7 +103,6 @@ This is just to provide you an overview of the adapter options.
 * (Mic-M) Several code improvements
 * (Mic-M) Issues [#35](https://github.com/Mic-M/ioBroker.smartcontrol/issues/35) and [#43](https://github.com/Mic-M/ioBroker.smartcontrol/issues/43) confirmed as resolved, therefore all workaround code removed.
 
-
 ### 1.1.1 
 * (Mic-M) Fix: Most likely finally fixes [issue #43](https://github.com/Mic-M/ioBroker.smartcontrol/issues/43) as well as workaround for [issue #35](https://github.com/Mic-M/ioBroker.smartcontrol/issues/35) (scheduleJob() of node-schedule module: now applying 'cancel' method prior to reschedule every midnight)
 * (Mic-M) Update adapter documentation
@@ -111,7 +110,6 @@ This is just to provide you an overview of the adapter options.
 ### 1.1.0 
 * (Mic-M) Improvement: if multiple motion sensors assigned to zone, zone will not switch off if any other motion sensor assigned to same zone is still motion=true (addresses [issue #45](https://github.com/Mic-M/ioBroker.smartcontrol/issues/45))
 * (Mic-M) Internal: align testing with latest adapter creator (remove travis and use github test only)
-
 
 ### 1.0.0 
 * (Mic-M) No changes - just prepared versioning to add adapter to stable repository per adapter development documentation, [Versioning section](https://github.com/ioBroker/ioBroker.docs/blob/master/docs/en/dev/adapterdev.md).
@@ -134,7 +132,6 @@ This is just to provide you an overview of the adapter options.
 ### 0.5.10
 * (Mic-M) Potential fix / workaround: for issue #35 to verify if schedule was called before at the same time
 
-
 ### 0.5.9
 * (Mic-M) **Breaking Change** New feature: 'Target Devices' -> 'Target URLs': added separate URL field to switch device off. This is breaking, since adapter admin config will have blank fields of 'Target URLs' once you update the adapter, and state ids will change as well. 
 * (Mic-M) Enhancement: 'Target Devices' -> 'Target URLs' : [Allow DNS name](https://forum.iobroker.net/post/510154)
@@ -146,7 +143,6 @@ This is just to provide you an overview of the adapter options.
 * (Mic-M) Various code fixes and improvements
 * (Mic-M) Potentially fix of [issue #35](https://github.com/Mic-M/ioBroker.smartcontrol/issues/35) - to be tested
 * (Mic-M) Enhancement for 'Target Devices': Add table to call URLs als target (implementation of [issue #1](https://github.com/Mic-M/ioBroker.smartcontrol/issues/1))
-
 
 ### 0.5.6
 * (Mic-M) Hotfix: loading admin settings for enums
@@ -174,13 +170,11 @@ This is just to provide you an overview of the adapter options.
 * (Mic-M) New feature: ZONES - New option "Delay for switching zone on (in seconds)" - [issue #31](https://github.com/Mic-M/ioBroker.smartcontrol/issues/31)
 * (Mic-M) New feature: ZONES - New option "Never switch off if..." - [issue #32](https://github.com/Mic-M/ioBroker.smartcontrol/issues/32)
 
-
 ### 0.4.4
 * (Mic-M) New feature: allow comparison operators `!=` / `<>` in 'TRIGGERS -> Other triggers' to trigger if state value is unequal. Example: `<>30` or `!=30` - see [Forum](https://forum.iobroker.net/post/496133)
 * (Mic-M) Fix: Don't create `smartcontrol.x.options.TargetDevices.` states for enums since this does not make sense for enums.
 * (Mic-M) Fix: Don't create `smartcontrol.x.targetDevices.` states for enums since this does not make sense for enums.
 * (Mic-M) Moved log `Trigger xyz was already activated x seconds ago and is ignored...` from regular info log to debug/'extended info log' - [Forum](https://forum.iobroker.net/post/496604)
-
 
 ### 0.4.3
 * (Mic-M) New feature in adapter options: configure number of entries in 'smartcontrol.x.info.log.zoneActivations.json'
@@ -193,12 +187,10 @@ This is just to provide you an overview of the adapter options.
 ### 0.4.1
 * (Mic-M) Fixed io-package.json
 
-
 ### 0.4.0
 * (Mic-M) New feature: Tab 'Target Devices': New table 'Targets: Enum functions' to **support enum functions**, and optionally limit to certain enum rooms. [issue #29](https://github.com/Mic-M/ioBroker.smartcontrol/issues/29).
 * (Mic-M) New feature: New JSON state for recent zone activations: 'smartcontrol.x.info.log.zoneActivations.json'. [issue #30](https://github.com/Mic-M/ioBroker.smartcontrol/issues/30).
 * (Mic-M) Code fixes
-
 
 ### 0.3.10
 * (Mic-M) Fixed io-package.json
@@ -209,7 +201,7 @@ This is just to provide you an overview of the adapter options.
 ### 0.3.8
 * (Mic-M) Updated readme since adapter [is now in latest repository](https://github.com/ioBroker/ioBroker.repositories/pull/930)
 * (Mic-M) Updated translations, which also addresses [#26](https://github.com/Mic-M/ioBroker.smartcontrol/issues/26)
-* (Mic-M) Fixed/improved 'admin/index_m.js' 
+* (Mic-M) Fixed/improved 'admin/index_m.js'
 
 ### 0.3.7
 * (Mic-M) Mini update, just under the hood.
@@ -223,7 +215,6 @@ This is just to provide you an overview of the adapter options.
 ### 0.3.4
 * (Mic-M) Test: Implementation of markdown documentation files within adapter configuration by using [zero-md](https://github.com/zerodevx/) for tables 'Target Devices' and 'Additional Conditions' to prepare adapter for multiple languages. Based on your language set in the adapter configuration, either German will be displayed (if language set to German) or English, if set language is not German.
 
-
 ### 0.3.3
 * (Mic-M) New feature for Motion sensors: the timer duration and brightness threshold can now be changed via states. These states are available under `smartcontrol.0.options.TriggerMotion.xxx.<duration|briThreshold>` for each of your motion sensors. Please note that any change will cause an adapter restart (for initializing and clearing all existing timers to apply the new values). [Issue #18](https://github.com/Mic-M/ioBroker.smartcontrol/issues/18)
 
@@ -232,7 +223,6 @@ This is just to provide you an overview of the adapter options.
 * (Mic-M) Fix [adapter-check.iobroker.in](https://adapter-check.iobroker.in/) error [E144] "common.installedFrom field found in io-package.json. Must be removed."
 * (Mic-M) Fix for adapter unload: check schedule variable for undefined.
 * (Mic-M) Fixed debug log line
-
 
 ### 0.3.1
 * (Mic-M) Fix error if no duration is set for motion sensor - [Forum Link](https://forum.iobroker.net/post/487630)
@@ -246,8 +236,6 @@ can have an effect to your existing configuration.
 * (Mic-M) New feature: Time triggers - added options for additional conditions for 'any' or 'all'. [issue #24](https://github.com/Mic-M/ioBroker.smartcontrol/issues/24)
 * (Mic-M) New feature: Zones > Execution - added options for additional conditions for 'any' or 'all'. 
 * (Mic-M) Many fixes under the hood
-
-
 
 ### 0.2.2
 * (Mic-M) New feature: In '3. TRIGGERS', 'Other Triggers', you can now easily create own states as triggers under 'smartcontrol.x.userstates'
@@ -308,10 +296,8 @@ Change Log for 0.2.0:
 * (hombach) corrected translations in docs/translations.md
 * (hombach) extended Travis tests to include ARM CPUs
 
-
 ### 0.1.1-beta.2
 * (Mic-M) Fix: Perform configuration validation and correction also for non-active table rows, since these can be switched on thru `smartcontrol.x.options.xxx.xxx.active` states.
-
 
 ### 0.1.1-beta.1
 * (Mic-M) New feature: New option in motion sensor table: if activated, motion triggers will not set a timeout if target device was turned on previously without a motion trigger ("manually"). [Forum Link](https://forum.iobroker.net/post/433871)
