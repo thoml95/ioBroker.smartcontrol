@@ -17,91 +17,78 @@
         "zh-cn": "移徙与奥罗布克-community-adapters之间的联系\n由于对原状进行公开审查,更新\n对12、14、16"
       },
       "1.2.1": {
-        "Enhancement: Now, all adapter config validations take place while saving the adapter configuration, and all identified errors are shown in a dialog. Addresses issue #61": {
-          "en": "Enhancement: Now, all adapter config validations take place while saving the adapter configuration, and all identified errors are shown in a dialog. Addresses issue #61",
-          "de": "Erweiterung: Jetzt finden alle Überprüfungen der Adapterkonfiguration statt, während die Adapterkonfiguration gespeichert wird, und alle identifizierten Fehler werden in einem Dialogfeld angezeigt. Behebt das Problem Nr. 61",
-          "ru": "Улучшение: теперь все проверки конфигурации адаптера происходят при сохранении конфигурации адаптера, и все выявленные ошибки отображаются в диалоговом окне. Решает проблему №61.",
-          "pt": "Aprimoramento: agora, todas as validações de configuração do adaptador ocorrem ao salvar a configuração do adaptador e todos os erros identificados são mostrados em um diálogo. Resolve o problema # 61",
-          "nl": "Verbetering: nu vinden alle adapterconfiguratie-validaties plaats tijdens het opslaan van de adapterconfiguratie en worden alle geïdentificeerde fouten in een dialoogvenster weergegeven. Lost probleem # 61 op",
-          "fr": "Amélioration: Désormais, toutes les validations de configuration de l'adaptateur ont lieu lors de l'enregistrement de la configuration de l'adaptateur, et toutes les erreurs identifiées sont affichées dans une boîte de dialogue. Résolution du problème n ° 61",
-          "it": "Miglioramento: ora, tutte le convalide della configurazione dell'adattatore vengono eseguite durante il salvataggio della configurazione dell'adattatore e tutti gli errori identificati vengono visualizzati in una finestra di dialogo. Risolve il problema # 61",
-          "es": "Mejora: ahora, todas las validaciones de la configuración del adaptador tienen lugar mientras se guarda la configuración del adaptador, y todos los errores identificados se muestran en un cuadro de diálogo. Aborda el problema # 61",
-          "pl": "Ulepszenie: teraz wszystkie sprawdzanie poprawności konfiguracji adaptera mają miejsce podczas zapisywania konfiguracji adaptera, a wszystkie zidentyfikowane błędy są wyświetlane w oknie dialogowym. Rozwiązuje problem nr 61",
-          "zh-cn": "增强功能：现在，所有适配器配置验证都在保存适配器配置的同时进行，并且所有已识别的错误均显示在对话框中。解决了问题61"
-        }
+        "en": "Enhancement: Now, all adapter config validations take place while saving the adapter configuration, and all identified errors are shown in a dialog. Addresses issue #61",
+        "de": "Erweiterung: Jetzt finden alle Überprüfungen der Adapterkonfiguration statt, während die Adapterkonfiguration gespeichert wird, und alle identifizierten Fehler werden in einem Dialogfeld angezeigt. Behebt das Problem Nr. 61",
+        "ru": "Улучшение: теперь все проверки конфигурации адаптера происходят при сохранении конфигурации адаптера, и все выявленные ошибки отображаются в диалоговом окне. Решает проблему №61.",
+        "pt": "Aprimoramento: agora, todas as validações de configuração do adaptador ocorrem ao salvar a configuração do adaptador e todos os erros identificados são mostrados em um diálogo. Resolve o problema # 61",
+        "nl": "Verbetering: nu vinden alle adapterconfiguratie-validaties plaats tijdens het opslaan van de adapterconfiguratie en worden alle geïdentificeerde fouten in een dialoogvenster weergegeven. Lost probleem # 61 op",
+        "fr": "Amélioration: Désormais, toutes les validations de configuration de l'adaptateur ont lieu lors de l'enregistrement de la configuration de l'adaptateur, et toutes les erreurs identifiées sont affichées dans une boîte de dialogue. Résolution du problème n ° 61",
+        "it": "Miglioramento: ora, tutte le convalide della configurazione dell'adattatore vengono eseguite durante il salvataggio della configurazione dell'adattatore e tutti gli errori identificati vengono visualizzati in una finestra di dialogo. Risolve il problema # 61",
+        "es": "Mejora: ahora, todas las validaciones de la configuración del adaptador tienen lugar mientras se guarda la configuración del adaptador, y todos los errores identificados se muestran en un cuadro de diálogo. Aborda el problema # 61",
+        "pl": "Ulepszenie: teraz wszystkie sprawdzanie poprawności konfiguracji adaptera mają miejsce podczas zapisywania konfiguracji adaptera, a wszystkie zidentyfikowane błędy są wyświetlane w oknie dialogowym. Rozwiązuje problem nr 61",
+        "zh-cn": "增强功能：现在，所有适配器配置验证都在保存适配器配置的同时进行，并且所有已识别的错误均显示在对话框中。解决了问题61"
       },
       "1.2.0": {
-        "Fix: issue #60 - Linked triggers of motion sensors issue; Several code improvements; Issues #35 and #43 confirmed as resolved, therefore all workaround code removed": {
-          "en": "Fix: issue #60 - Linked triggers of motion sensors issue; Several code improvements; Issues #35 and #43 confirmed as resolved, therefore all workaround code removed",
-          "de": "Fix: Issue #60 - Problem mit verknüpften Auslösern von Bewegungssensoren; Mehrere Codeverbesserungen; Issues #35 und #43 wurden als behoben bestätigt, daher wurde der gesamte Workaround-Code entfernt",
-          "ru": "Исправлено: проблема №60 - проблема связанных триггеров датчиков движения; Несколько улучшений кода; Проблемы №35 и №43 подтверждены как решенные, поэтому весь код обходного решения удален.",
-          "pt": "Correção: problema nº 60 - Problemas vinculados aos sensores de movimento; Várias melhorias de código; Os problemas nº 35 e nº 43 foram confirmados como resolvidos, portanto, todo o código de solução alternativa foi removido",
-          "nl": "Oplossing: probleem # 60 - Probleem met gekoppelde triggers van bewegingssensoren; Diverse codeverbeteringen; Problemen # 35 en # 43 bevestigd als opgelost, daarom is alle tijdelijke code verwijderd",
-          "fr": "Correction: problème n ° 60 - Problème lié aux déclencheurs liés aux capteurs de mouvement; Plusieurs améliorations de code; Problèmes n ° 35 et n ° 43 confirmés comme résolus, par conséquent tout le code de solution de contournement a été supprimé",
-          "it": "Correzione: problema # 60 - Problemi relativi ai trigger collegati dei sensori di movimento; Diversi miglioramenti al codice; I problemi # 35 e # 43 sono stati confermati come risolti, quindi tutto il codice della soluzione alternativa è stato rimosso",
-          "es": "Solución: problema n. ° 60: problemas relacionados con los activadores de los sensores de movimiento; Varias mejoras de código; Los problemas n. ° 35 y n. ° 43 se confirmaron como resueltos, por lo tanto, se eliminó todo el código de solución.",
-          "pl": "Poprawka: problem # 60 - Problem z połączonymi wyzwalaczami czujników ruchu; Kilka ulepszeń kodu; Potwierdzono, że problemy 35 i 43 zostały rozwiązane, w związku z czym usunięto cały kod obejścia",
-          "zh-cn": "修复：问题60-运动传感器的链接触发器问题；几处代码改进；问题＃35和＃43确认已解决，因此删除了所有解决方法代码"
-        }
+        "en": "Fix: issue #60 - Linked triggers of motion sensors issue; Several code improvements; Issues #35 and #43 confirmed as resolved, therefore all workaround code removed",
+        "de": "Fix: Issue #60 - Problem mit verknüpften Auslösern von Bewegungssensoren; Mehrere Codeverbesserungen; Issues #35 und #43 wurden als behoben bestätigt, daher wurde der gesamte Workaround-Code entfernt",
+        "ru": "Исправлено: проблема №60 - проблема связанных триггеров датчиков движения; Несколько улучшений кода; Проблемы №35 и №43 подтверждены как решенные, поэтому весь код обходного решения удален.",
+        "pt": "Correção: problema nº 60 - Problemas vinculados aos sensores de movimento; Várias melhorias de código; Os problemas nº 35 e nº 43 foram confirmados como resolvidos, portanto, todo o código de solução alternativa foi removido",
+        "nl": "Oplossing: probleem # 60 - Probleem met gekoppelde triggers van bewegingssensoren; Diverse codeverbeteringen; Problemen # 35 en # 43 bevestigd als opgelost, daarom is alle tijdelijke code verwijderd",
+        "fr": "Correction: problème n ° 60 - Problème lié aux déclencheurs liés aux capteurs de mouvement; Plusieurs améliorations de code; Problèmes n ° 35 et n ° 43 confirmés comme résolus, par conséquent tout le code de solution de contournement a été supprimé",
+        "it": "Correzione: problema # 60 - Problemi relativi ai trigger collegati dei sensori di movimento; Diversi miglioramenti al codice; I problemi # 35 e # 43 sono stati confermati come risolti, quindi tutto il codice della soluzione alternativa è stato rimosso",
+        "es": "Solución: problema n. ° 60: problemas relacionados con los activadores de los sensores de movimiento; Varias mejoras de código; Los problemas n. ° 35 y n. ° 43 se confirmaron como resueltos, por lo tanto, se eliminó todo el código de solución.",
+        "pl": "Poprawka: problem # 60 - Problem z połączonymi wyzwalaczami czujników ruchu; Kilka ulepszeń kodu; Potwierdzono, że problemy 35 i 43 zostały rozwiązane, w związku z czym usunięto cały kod obejścia",
+        "zh-cn": "修复：问题60-运动传感器的链接触发器问题；几处代码改进；问题＃35和＃43确认已解决，因此删除了所有解决方法代码"
       },
       "1.1.1": {
-        "Fix: Most likely finally fixes issue #43 as well as workaround for issue #35": {
-          "en": "Fix: Most likely finally fixes issue #43 as well as workaround for issue #35",
-          "de": "Fix: Behebt höchstwahrscheinlich endlich Issue 43 sowie Workaround für Issue 35",
-          "ru": "Исправление: Скорее всего, наконец, исправлена проблема № 43, а также решение проблемы № 35.",
-          "pt": "Correção: provavelmente, finalmente corrige o problema nº 43, bem como uma solução alternativa para o problema nº 35",
-          "nl": "Oplossing: lost waarschijnlijk eindelijk probleem # 43 op, evenals een tijdelijke oplossing voor probleem # 35",
-          "fr": "Correctif: corrige très probablement finalement le problème n ° 43 ainsi que la solution de contournement pour le problème n ° 35",
-          "it": "Correzione: molto probabilmente risolve finalmente il problema # 43 e la soluzione alternativa per il problema # 35",
-          "es": "Solución: lo más probable es que finalmente solucione el problema # 43, así como una solución para el problema # 35",
-          "pl": "Poprawka: najprawdopodobniej ostatecznie rozwiązuje problem nr 43, a także obejście problemu nr 35",
-          "zh-cn": "修复：最有可能最终解决了问题43和问题35的解决方法"
-        }
+        "en": "Fix: Most likely finally fixes issue #43 as well as workaround for issue #35",
+        "de": "Fix: Behebt höchstwahrscheinlich endlich Issue 43 sowie Workaround für Issue 35",
+        "ru": "Исправление: Скорее всего, наконец, исправлена проблема № 43, а также решение проблемы № 35.",
+        "pt": "Correção: provavelmente, finalmente corrige o problema nº 43, bem como uma solução alternativa para o problema nº 35",
+        "nl": "Oplossing: lost waarschijnlijk eindelijk probleem # 43 op, evenals een tijdelijke oplossing voor probleem # 35",
+        "fr": "Correctif: corrige très probablement finalement le problème n ° 43 ainsi que la solution de contournement pour le problème n ° 35",
+        "it": "Correzione: molto probabilmente risolve finalmente il problema # 43 e la soluzione alternativa per il problema # 35",
+        "es": "Solución: lo más probable es que finalmente solucione el problema # 43, así como una solución para el problema # 35",
+        "pl": "Poprawka: najprawdopodobniej ostatecznie rozwiązuje problem nr 43, a także obejście problemu nr 35",
+        "zh-cn": "修复：最有可能最终解决了问题43和问题35的解决方法"
       },
       "1.1.0": {
-        "Improvement: if multiple motion sensors assigned to zone, zone will not switch off if any other motion sensor assigned to same zone is still motion=true": {
-          "en": "Improvement: if multiple motion sensors assigned to zone, zone will not switch off if any other motion sensor assigned to same zone is still motion=true",
-          "de": "Verbesserung: Wenn der Zone mehrere Bewegungsmelder zugewiesen sind, wird die Zone nicht ausgeschaltet, wenn ein anderer Bewegungsmelder, der derselben Zone zugewiesen ist, noch Bewegung=true ist",
-          "ru": "Исправлено: если несколько датчиков движения назначены зоне, зона не будет отключаться, если любой другой датчик движения, назначенный той же зоне, все еще движется = true",
-          "pt": "Correção: se vários sensores de movimento atribuídos à zona, a zona não desligará se qualquer outro sensor de movimento atribuído à mesma zona ainda for movimento = verdadeiro",
-          "nl": "Oplossing: als er meerdere bewegingssensoren zijn toegewezen aan een zone, wordt de zone niet uitgeschakeld als een andere bewegingssensor die aan dezelfde zone is toegewezen nog steeds beweging = waar is",
-          "fr": "Correction: si plusieurs capteurs de mouvement affectés à la zone, la zone ne s'éteindra pas si un autre capteur de mouvement affecté à la même zone est toujours en mouvement = vrai",
-          "it": "Risolto: se più sensori di movimento sono assegnati alla zona, la zona non si spegne se qualsiasi altro sensore di movimento assegnato alla stessa zona è ancora motion = true",
-          "es": "Solución: si se asignan varios sensores de movimiento a la zona, la zona no se apagará si cualquier otro sensor de movimiento asignado a la misma zona sigue siendo movimiento = verdadero",
-          "pl": "Poprawka: jeśli wiele czujników ruchu jest przypisanych do strefy, strefa nie wyłączy się, jeśli jakikolwiek inny czujnik ruchu przypisany do tej samej strefy jest nadal ruch = prawda",
-          "zh-cn": "修复：如果分配给区域的多个运动传感器，如果分配给同一区域的任何其他运动传感器仍然是motion = true，则区域将不会关闭"
-        }
+        "en": "Improvement: if multiple motion sensors assigned to zone, zone will not switch off if any other motion sensor assigned to same zone is still motion=true",
+        "de": "Verbesserung: Wenn der Zone mehrere Bewegungsmelder zugewiesen sind, wird die Zone nicht ausgeschaltet, wenn ein anderer Bewegungsmelder, der derselben Zone zugewiesen ist, noch Bewegung=true ist",
+        "ru": "Исправлено: если несколько датчиков движения назначены зоне, зона не будет отключаться, если любой другой датчик движения, назначенный той же зоне, все еще движется = true",
+        "pt": "Correção: se vários sensores de movimento atribuídos à zona, a zona não desligará se qualquer outro sensor de movimento atribuído à mesma zona ainda for movimento = verdadeiro",
+        "nl": "Oplossing: als er meerdere bewegingssensoren zijn toegewezen aan een zone, wordt de zone niet uitgeschakeld als een andere bewegingssensor die aan dezelfde zone is toegewezen nog steeds beweging = waar is",
+        "fr": "Correction: si plusieurs capteurs de mouvement affectés à la zone, la zone ne s'éteindra pas si un autre capteur de mouvement affecté à la même zone est toujours en mouvement = vrai",
+        "it": "Risolto: se più sensori di movimento sono assegnati alla zona, la zona non si spegne se qualsiasi altro sensore di movimento assegnato alla stessa zona è ancora motion = true",
+        "es": "Solución: si se asignan varios sensores de movimiento a la zona, la zona no se apagará si cualquier otro sensor de movimiento asignado a la misma zona sigue siendo movimiento = verdadero",
+        "pl": "Poprawka: jeśli wiele czujników ruchu jest przypisanych do strefy, strefa nie wyłączy się, jeśli jakikolwiek inny czujnik ruchu przypisany do tej samej strefy jest nadal ruch = prawda",
+        "zh-cn": "修复：如果分配给区域的多个运动传感器，如果分配给同一区域的任何其他运动传感器仍然是motion = true，则区域将不会关闭"
       },
       "1.0.0": {
-        "No changes - just prepared versioning to add adapter to stable repository per Adapter development documentation": {
-          "en": "No changes - just prepared versioning to add adapter to stable repository per Adapter development documentation",
-          "de": "Keine Änderungen - nur vorbereitete Versionierung zum Hinzufügen des Adapters zum stabilen Repository gemäß der Adapter-Entwicklungs-Dokumentation",
-          "ru": "Без изменений - просто подготовлено управление версиями для добавления адаптера в стабильный репозиторий согласно документации по разработке адаптера.",
-          "pt": "Sem alterações - apenas controle de versão preparado para adicionar adaptador ao repositório estável de acordo com a documentação de desenvolvimento do adaptador",
-          "nl": "Geen wijzigingen - alleen versiebeheer voorbereid om adapter toe te voegen aan stabiele repository per ontwikkelingsdocumentatie voor adapter",
-          "fr": "Aucun changement - juste préparé la gestion des versions pour ajouter l'adaptateur au référentiel stable conformément à la documentation de développement de l'adaptateur",
-          "it": "Nessuna modifica: solo il controllo delle versioni preparato per aggiungere l'adattatore al repository stabile secondo la documentazione di sviluppo dell'adattatore",
-          "es": "Sin cambios: solo versiones preparadas para agregar el adaptador al repositorio estable según la documentación de desarrollo del adaptador",
-          "pl": "Bez zmian - po prostu przygotowałem wersję w celu dodania adaptera do stabilnego repozytorium zgodnie z dokumentacją rozwoju adaptera",
-          "zh-cn": "无需更改-只需准备版本，即可根据适配器开发文档将适配器添加到稳定的存储库中"
-        }
+        "en": "No changes - just prepared versioning to add adapter to stable repository per Adapter development documentation",
+        "de": "Keine Änderungen - nur vorbereitete Versionierung zum Hinzufügen des Adapters zum stabilen Repository gemäß der Adapter-Entwicklungs-Dokumentation",
+        "ru": "Без изменений - просто подготовлено управление версиями для добавления адаптера в стабильный репозиторий согласно документации по разработке адаптера.",
+        "pt": "Sem alterações - apenas controle de versão preparado para adicionar adaptador ao repositório estável de acordo com a documentação de desenvolvimento do adaptador",
+        "nl": "Geen wijzigingen - alleen versiebeheer voorbereid om adapter toe te voegen aan stabiele repository per ontwikkelingsdocumentatie voor adapter",
+        "fr": "Aucun changement - juste préparé la gestion des versions pour ajouter l'adaptateur au référentiel stable conformément à la documentation de développement de l'adaptateur",
+        "it": "Nessuna modifica: solo il controllo delle versioni preparato per aggiungere l'adattatore al repository stabile secondo la documentazione di sviluppo dell'adattatore",
+        "es": "Sin cambios: solo versiones preparadas para agregar el adaptador al repositorio estable según la documentación de desarrollo del adaptador",
+        "pl": "Bez zmian - po prostu przygotowałem wersję w celu dodania adaptera do stabilnego repozytorium zgodnie z dokumentacją rozwoju adaptera",
+        "zh-cn": "无需更改-只需准备版本，即可根据适配器开发文档将适配器添加到稳定的存储库中"
       },
       "0.6.0": {
-        "1. Several code improvements / fixes; 2. Enhancement: New 'Linked devices' options for tab '3. TRIGGER', motion sensors.": {
-          "en": "1. Several code improvements / fixes; 2. Enhancement: New 'Linked devices' options for tab '3. TRIGGER' -> motion sensors.",
-          "de": "1. Mehrere Codeverbesserungen/-korrekturen; 2. Erweiterung: Neue Optionen für verknüpfte Geräte für '3. TRIGGER' -> Bewegungsmelder.",
-          "ru": "1. Несколько улучшений / исправлений кода; 2. Улучшение: новые параметры «Связанные устройства» для вкладки «3. ТРИГГЕР, датчики движения.",
-          "pt": "1. Várias melhorias / correções de código; 2. Aprimoramento: Novas opções de 'Dispositivos vinculados' para a guia '3. TRIGGER ', sensores de movimento.",
-          "nl": "1. Diverse codeverbeteringen / fixes; 2. Verbetering: nieuwe opties voor 'Gekoppelde apparaten' voor tabblad '3. TRIGGER ', bewegingssensoren.",
-          "fr": "1. Plusieurs améliorations / corrections de code; 2. Amélioration: Nouvelles options «Appareils liés» pour l'onglet «3. TRIGGER ', capteurs de mouvement.",
-          "it": "1. Diversi miglioramenti / correzioni al codice; 2. Miglioramento: nuove opzioni \"Dispositivi collegati\" per la scheda \"3. TRIGGER ', sensori di movimento.",
-          "es": "1. Varias mejoras / correcciones de código; 2. Mejora: Nuevas opciones de 'Dispositivos vinculados' para la pestaña '3. TRIGGER ', sensores de movimiento.",
-          "pl": "1. Kilka ulepszeń / poprawek kodu; 2. Ulepszenie: Nowe opcje „Połączonych urządzeń” na karcie „3. TRIGGER ”, czujniki ruchu.",
-          "zh-cn": "1.若干代码改进/修复； 2.增强功能：选项卡'3新增了“链接的设备”选项。 TRIGGER'，运动传感器。"
-        }
+        "en": "1. Several code improvements / fixes; 2. Enhancement: New 'Linked devices' options for tab '3. TRIGGER' -> motion sensors.",
+        "de": "1. Mehrere Codeverbesserungen/-korrekturen; 2. Erweiterung: Neue Optionen für verknüpfte Geräte für '3. TRIGGER' -> Bewegungsmelder.",
+        "ru": "1. Несколько улучшений / исправлений кода; 2. Улучшение: новые параметры «Связанные устройства» для вкладки «3. ТРИГГЕР, датчики движения.",
+        "pt": "1. Várias melhorias / correções de código; 2. Aprimoramento: Novas opções de 'Dispositivos vinculados' para a guia '3. TRIGGER ', sensores de movimento.",
+        "nl": "1. Diverse codeverbeteringen / fixes; 2. Verbetering: nieuwe opties voor 'Gekoppelde apparaten' voor tabblad '3. TRIGGER ', bewegingssensoren.",
+        "fr": "1. Plusieurs améliorations / corrections de code; 2. Amélioration: Nouvelles options «Appareils liés» pour l'onglet «3. TRIGGER ', capteurs de mouvement.",
+        "it": "1. Diversi miglioramenti / correzioni al codice; 2. Miglioramento: nuove opzioni \"Dispositivi collegati\" per la scheda \"3. TRIGGER ', sensori di movimento.",
+        "es": "1. Varias mejoras / correcciones de código; 2. Mejora: Nuevas opciones de 'Dispositivos vinculados' para la pestaña '3. TRIGGER ', sensores de movimiento.",
+        "pl": "1. Kilka ulepszeń / poprawek kodu; 2. Ulepszenie: Nowe opcje „Połączonych urządzeń” na karcie „3. TRIGGER ”, czujniki ruchu.",
+        "zh-cn": "1.若干代码改进/修复； 2.增强功能：选项卡'3新增了“链接的设备”选项。 TRIGGER'，运动传感器。"
       }
     },
-    "title": "Smart Control",
     "titleLang": {
       "en": "Smart Control",
       "de": "Smart Control",
@@ -159,7 +146,7 @@
     "messagebox": true,
     "dependencies": [
       {
-        "js-controller": ">=1.4.2"
+        "js-controller": ">=3.3.22"
       }
     ],
     "plugins": {

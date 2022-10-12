@@ -90,6 +90,9 @@ This is just to provide you an overview of the adapter options.
     Placeholder for the next version (at the beginning of the line):
     ### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+* (oelison) remove errors and warnings ocured during deploy
+
 ### 1.2.2 (2022-10-11)
 * (oelison) migration to links in iobroker-community-adapters
 * (oelison) update due to open PR of original repo
