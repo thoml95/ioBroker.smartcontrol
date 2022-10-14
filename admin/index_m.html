@@ -119,9 +119,8 @@
                                 </div>
                             </li>
                         </ul>
-
                         <!-- Start Options Table -->
-                         <div class="col s12" id="tableTargetDevices">
+                        <div class="col s12" id="tableTargetDevices">
                             <div class="row valign-wrapper" style="margin-bottom:5px">
                                 <div class="col"><a class="btn-floating waves-effect waves-light blue table-button-add"><i class="material-icons">add</i></a></div>
                                 <div class="table-filter input-field col s12 m6 l12">
@@ -263,7 +262,6 @@
                         </ul>
                         <!-- Start Options Table -->
                         <div class="col s12" id="tableConditions">
-
                             <div class="row valign-wrapper" style="margin-bottom:5px">
                                 <div class="col"><a class="btn-floating waves-effect waves-light blue table-button-add"><i class="material-icons">add</i></a></div>
                                 <div class="table-filter input-field col s12 m6 l12">
@@ -312,7 +310,6 @@
                         </ul>
                         <!-- Start Options Table -->
                         <div class="col s12" id="tableTriggerMotion">
-
                             <div class="row valign-wrapper" style="margin-bottom:5px">
                                 <div class="col"><a class="btn-floating waves-effect waves-light blue table-button-add"><i class="material-icons">add</i></a></div>
                                 <div class="table-filter input-field col s12 m6 l12">
@@ -320,7 +317,6 @@
                                     <button class="btn-floating waves-effect waves-light blue btn-small" title="Clear filter"><i class="material-icons">clear</i></button>
                                 </div>
                             </div>
-
                             <div class="table-values-div">
                                 <table class="table-values">
                                     <thead>
@@ -361,7 +357,6 @@
                         </ul>
                         <!-- Start Options Table -->
                         <div class="col s12" id="tableTriggerDevices">
-
                             <div class="row valign-wrapper" style="margin-bottom:5px">
                                 <div class="col"><a class="btn-floating waves-effect waves-light blue table-button-add"><i class="material-icons">add</i></a></div>
                                 <div class="table-filter input-field col s12 m6 l12">
@@ -369,7 +364,6 @@
                                     <button class="btn-floating waves-effect waves-light blue btn-small" title="Clear filter"><i class="material-icons">clear</i></button>
                                 </div>
                             </div>
-
                             <div class="table-values-div">
                                 <table class="table-values">
                                     <thead>
@@ -407,7 +401,6 @@
                        
                         <!-- Start Options Table -->
                         <div class="col s12" id="tableTriggerTimes">
-
                             <div class="row valign-wrapper" style="margin-bottom:5px">
                                 <div class="col"><a class="btn-floating waves-effect waves-light blue table-button-add"><i class="material-icons">add</i></a></div>
                                 <div class="table-filter input-field col s12 m6 l12">
@@ -415,7 +408,6 @@
                                     <button class="btn-floating waves-effect waves-light blue btn-small" title="Clear filter"><i class="material-icons">clear</i></button>
                                 </div>
                             </div>
-
                             <div class="table-values-div">
                                 <table class="table-values">
                                     <thead>
@@ -464,7 +456,6 @@
 
                         <!-- Start Options Table -->
                         <div class="col s12" id="tableZones">
-
                             <div class="row valign-wrapper" style="margin-bottom:5px">
                                 <div class="col"><a class="btn-floating waves-effect waves-light blue table-button-add"><i class="material-icons">add</i></a></div>
                                 <div class="table-filter input-field col s12 m6 l12">
@@ -472,7 +463,6 @@
                                     <button class="btn-floating waves-effect waves-light blue btn-small" title="Clear filter"><i class="material-icons">clear</i></button>
                                 </div>
                             </div>
-
                             <div class="table-values-div">
                                 <table class="table-values">
                                     <thead>
@@ -492,8 +482,9 @@
                                             <th style="width: 30px" class="header translate" data-name="executeAlways" data-type="checkbox">Always</th>
                                             <!-- Start: Execution Options, being hidden through CSS -->
                                             <th class="header" data-name="executionJson" data-type="text"></th>
+                                            <th class="header" data-name="infoText" data-type="text"></th>
                                             <!-- End: Execution Options, being hidden through CSS -->
-                                            <th style="width: 160px" class="header" data-buttons="up down copy_smart delete"></th>
+                                            <th style="width: 200px" class="header" data-buttons="up down copy_smart delete info"></th>
                                         </tr>
                                     </thead>
                                 </table>
@@ -729,13 +720,11 @@
                     
                     <!-- Start Options Table -->
                     <div class="col s12 hide-if-always" id="tableZoneExecution">
-
                         <div class="row valign-wrapper" style="margin-bottom:5px">
                             <div class="col">
                                 <a class="btn-floating waves-effect waves-light blue table-button-add"><i class="material-icons">add</i></a>
                             </div>
                         </div>
-
                         <div class="table-values-div">
                             <table class="table-values">
                                 <thead>
@@ -771,6 +760,35 @@
             </div>
         </div>
 
+        <!-- DIALOG: description -->
+        <div id="dialog-edit-info" class="modal modal-fixed-footer">
+            <div class="modal-content">
+                <div class="row" style="padding-left:12px; padding-right:0">
+                    <!-- START: Header with collapsible help contents  -->
+                    <ul class="collapsible">
+                        <li>
+                            <div class="collapsible-header config-section"><h5><span class="translate">Informational note to the object</span> '<span class="info-name">Placeholder</span>'</h5><i class="material-icons">help_outline</i></div>
+                            <div class="collapsible-body">
+                                <!-- Importing Markdown -->
+                                <zero-md id="md-tableExecution" manual-render src="doc-md/info-text_en.md"></zero-md>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- END: Header with collapsible help contents  -->
+
+                    <!-- textbox info text -->
+                    <div class="row">
+                        <div class="input-field">
+                            <input type="text" class="value" id="infoText" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <a class="modal-action modal-close waves-effect waves-green btn btn-set"><i class="large material-icons left">check_circle</i><span class="translate">Select</span></a>
+                <a class="modal-action modal-close waves-effect waves-green btn btn-close"><i class="large material-icons left">cancel</i><span class="translate">Cancel</span></a>
+            </div>
+        </div>
 
         <!-- DIALOG: Verification Options - Called once user clicks SAVE -->
         <div id="dialog-save-verification" class="modal modal-fixed-footer">

@@ -49,7 +49,8 @@ class SmartControl extends utils.Adapter {
             Trigger:   require('./lib/trigger-class.js'), // Class for Triggers and Target devices handling
             mSuncalc:  require('suncalc2'),               // https://github.com/andiling/suncalc2
             mSchedule: require('node-schedule'),          // https://github.com/node-schedule/node-schedule
-            mGot:      require('got'),                    // https://github.com/sindresorhus/got || This is a 'request' replacement due to https://nodesource.com/blog/express-going-into-maintenance-mode#alternativestorequest
+            //ToDo: need to be replaced by axios
+            mGot:      require('@esm2cjs/got'),           // https://github.com/sindresorhus/got || This is a 'request' replacement due to https://nodesource.com/blog/express-going-into-maintenance-mode#alternativestorequest
 
             // {object} timers    - All timer objects.
             timersZoneOn: {},    // for option "onAfter" in Zones table
