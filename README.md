@@ -90,7 +90,7 @@ This is just to provide you an overview of the adapter options.
     Placeholder for the next version (at the beginning of the line):
     ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 1.3.0 (2022-10-14)
 * (oelison) remove errors and warnings ocured during deploy
 * (oelison) comment for zones added
 
