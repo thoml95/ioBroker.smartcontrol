@@ -25,10 +25,10 @@
     "url": "https://github.com/iobroker-community-adapters/ioBroker.smartcontrol"
   },
   "dependencies": {
+    "@esm2cjs/got": "^12.5.2",
     "@iobroker/adapter-core": "^2.4.0",
     "@types/jquery": "^3.5.14",
     "cheerio": "^1.0.0-rc.12",
-    "got": "^11.8.0",
     "node-schedule": "^2.1.0",
     "suncalc2": "^1.8.1"
   },

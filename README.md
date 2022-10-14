@@ -92,6 +92,7 @@ This is just to provide you an overview of the adapter options.
 -->
 ### **WORK IN PROGRESS**
 * (oelison) remove errors and warnings ocured during deploy
+* (oelison) comment for zones added
 
 ### 1.2.2 (2022-10-11)
 * (oelison) migration to links in iobroker-community-adapters

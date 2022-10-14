@@ -237,6 +237,7 @@ function load2(settings, onChange) {
                 dialogConfigureZoneExecution();
                 updateTableButtonIcons(tableId, [{dataButton:'selectTriggers', icon:'pageview'},{dataButton:'selectTargetsMenu', icon:'pageview'},{dataButton:'selectNeverOff', icon:'pageview'},{dataButton:'configureExecution', icon:'schedule', regularSize:true}]);
                 addCopyTableRowSmarter(tableId);
+                addInfo(tableId);
                 break;
             case 'tableZoneExecution':
                 dialogSelectSettings({tableId:tableId, triggerDataCmd:'selectAdditionalConditions', targetField:'additionalConditions', dialogTitle:_('Select additional conditions') });
@@ -516,6 +517,35 @@ function load2(settings, onChange) {
         });
     }
 
+    /**
+     * info button for textual explanation of the object
+     */
+    function addInfo(tableId) {
+        // set the icon
+        updateTableButtonIcons(tableId, [{dataButton:'info', icon:'live_help'}]);
+        // Apply info editor
+        $(`#${tableId} table tbody td a.values-buttons[data-command="info"]`).on('click', function() { 
+            const rowNum = $(this).data('index'); // table row number which was clicked, starting at zero.
+            const tableArr = table2values(tableId);
+            const actInfoText = tableArr[rowNum].infoText;
+            
+            $('#dialog-edit-info #infoText').prop('value', actInfoText);
+            
+            // Initialize dialog (modal)
+            initDialog('dialog-edit-info', dialogOkClose);
+            // Add Name to title
+            $('#dialog-edit-info span.info-name').text(tableArr[rowNum].name);
+            // Open dialog
+            $('#dialog-edit-info').modal('open');
+            
+            // Called once user clicked "Ok" in the dialog
+            function dialogOkClose() {
+                onChange && onChange();
+                tableArr[rowNum].infoText = $('#dialog-edit-info #infoText').prop('value');
+                values2table(tableId, tableArr, onChange, function(){val2tableOnReady(tableId);});
+            }
+        });   
+    }
     /**
      * We replace "copy table row" command from node_modules/iobroker.admin/www/js/adapter-settings.js
      * Reason: rename name functionality does not work any longer if name keeps the same, therefore 
