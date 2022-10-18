@@ -160,10 +160,10 @@ code { padding: 2px 4px; font-size: 1.05em !important; color: #2696ef; backgroun
 }
 
 .m.react-dark #dialog-select-settings span.fancytree-title:hover {
-    border-color: #70c0e7;
+    background-color: rgb(59, 59, 59);
 }
 .m.react-blue #dialog-select-settings span.fancytree-title:hover {
-    border-color: #70c0e7;
+    background-color: rgb(59, 59, 59);
 }
 /* Dialog called once SAVE button clicked and verification failed */
 #dialog-save-verification div.error-section { font-size: 1.3em; }
