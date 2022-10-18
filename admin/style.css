@@ -37,8 +37,8 @@
 .m.react-blue .tabs .tab a.active, .m .tabs .tab a:hover { color: #2196f3; }
 .m.react-blue .tabs { background-color: #272727 !important;}
 
-.m.react-dark .markdown-body p { color: #fff; }
-.m.react-blue .markdown-body p { color: #fff; }
+.m.react-dark .markdown-body { color: #fff; }
+.m.react-blue .markdown-body { color: #fff; }
 
 <style>
 
@@ -159,10 +159,10 @@ code { padding: 2px 4px; font-size: 1.05em !important; color: #2696ef; backgroun
     background-color: #272727;
 }
 
-.m.react-dark .fancytree-plain span.fancytree-node:hover span.fancytree-title {
+.m.react-dark #dialog-select-settings span.fancytree-title:hover {
     border-color: #70c0e7;
 }
-.m.react-blue .fancytree-plain span.fancytree-node:hover span.fancytree-title {
+.m.react-blue #dialog-select-settings span.fancytree-title:hover {
     border-color: #70c0e7;
 }
 /* Dialog called once SAVE button clicked and verification failed */
