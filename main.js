@@ -404,7 +404,6 @@ class SmartControl extends utils.Adapter {
             if (!res) {
                 throw(`Certain error(s) occurred in asyncCreateStates().`);
             }
-
             // Delete all states which are no longer used.
             const allAdapterStates = await this.getStatesOfAsync('options');
             if (allAdapterStates != undefined) {
@@ -413,7 +412,7 @@ class SmartControl extends utils.Adapter {
                     if ( (statePathsOnly.indexOf(statePath) == -1) && (statePath.endsWith('active') || (statePath.endsWith('name') ) ) ) {
                         // State is no longer used.
                         await this.delObjectAsync(statePath); // Delete state.                
-                        this.x.helper.logExtendedInfo(`State '${statePath}' deleted, since option does no longer exist.'`);
+                        this.x.helper.logExtendedInfo(`State ${statePath} deleted, since option does no longer exist.`);
                     }
                 }
             }
@@ -429,10 +428,17 @@ class SmartControl extends utils.Adapter {
                 if(typeof optionObj.row[optionObj.field] == 'object') {
                     val = JSON.stringify(optionObj.row[optionObj.field]);
                 } else {
-                    val = optionObj.row[optionObj.field];
+                    if (lpStatePath.endsWith('briThreshold')) {
+                        val = parseInt(optionObj.row[optionObj.field]);
+                    }
+                    else if (lpStatePath.endsWith('duration')) {
+                        val = parseInt(optionObj.row[optionObj.field]);
+                    }
+                    else {
+                        val = optionObj.row[optionObj.field];
+                    }
                 }
                 await this.setStateAsync(lpStatePath, {val:val, ack:true});
-
             }
 
             /**

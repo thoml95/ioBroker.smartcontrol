@@ -32,13 +32,12 @@
 /* Tabs menu react-dark */
 .m.react-dark .tabs .tab a.active, .m .tabs .tab a:hover { color: #2196f3; }
 .m.react-dark .tabs { background-color: #272727 !important;}
+.m.react-dark .md-import { background-color: #E0EBF3; color:yellow !important;}
 
-/* Tabs menu react-dark */
+/* Tabs menu react-blue */
 .m.react-blue .tabs .tab a.active, .m .tabs .tab a:hover { color: #2196f3; }
 .m.react-blue .tabs { background-color: #272727 !important;}
-
-.m.react-dark .markdown-body { color: #fff; }
-.m.react-blue .markdown-body { color: #fff; }
+.m.react-blue .md-import { background-color: #E0EBF3; color:yellow !important;}
 
 /* Table header */
 table.table-values th.header { background-color:#64BfF6; font-size:90%; text-align:center; line-height: 1em; padding:6px 2px;}
