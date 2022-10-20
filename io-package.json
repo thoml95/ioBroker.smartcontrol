@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "smartcontrol",
-    "version": "1.3.0",
+    "version": "1.3.1",
     "news": {
+      "1.3.1": {
+        "en": "(oelison) dark mode fix #5\nlog info type error #16",
+        "de": "(oelison) dunkler modus fix #5\nlog info type fehler #16",
+        "ru": "(oelison) темный режим исправить #5\nтип лога ошибка #16",
+        "pt": "(oelison) correção de modo escuro #5\nlog info type error #16",
+        "nl": "duistere mode fix #5\nquality over quantity (qoq) releases vertaling:",
+        "fr": "(oelison) fixation du mode noir #5\njournal info type error #16",
+        "it": "(oelison) modalità dark fix #5\nlog info tipo errore #16",
+        "es": "(oelison) modo oscuro fijar #5\ntipo de registro error #16",
+        "pl": "(oelison) mroczny tryb ułożenia #5\nbłąd logiki #16",
+        "uk": "(oelison) темний режим виправити #5\nлог інформація типу помилка #16",
+        "zh-cn": "(oelison) 黑暗模式\n第16条"
+      },
       "1.3.0": {
         "en": "remove errors and warnings ocured during deploy\ncomment for zones added",
         "de": "entfernen von fehlern und warnungen während des einsatzes\nkommentar zu zonen hinzugefügt",
@@ -76,18 +89,6 @@
         "es": "Solución: si se asignan varios sensores de movimiento a la zona, la zona no se apagará si cualquier otro sensor de movimiento asignado a la misma zona sigue siendo movimiento = verdadero",
         "pl": "Poprawka: jeśli wiele czujników ruchu jest przypisanych do strefy, strefa nie wyłączy się, jeśli jakikolwiek inny czujnik ruchu przypisany do tej samej strefy jest nadal ruch = prawda",
         "zh-cn": "修复：如果分配给区域的多个运动传感器，如果分配给同一区域的任何其他运动传感器仍然是motion = true，则区域将不会关闭"
-      },
-      "1.0.0": {
-        "en": "No changes - just prepared versioning to add adapter to stable repository per Adapter development documentation",
-        "de": "Keine Änderungen - nur vorbereitete Versionierung zum Hinzufügen des Adapters zum stabilen Repository gemäß der Adapter-Entwicklungs-Dokumentation",
-        "ru": "Без изменений - просто подготовлено управление версиями для добавления адаптера в стабильный репозиторий согласно документации по разработке адаптера.",
-        "pt": "Sem alterações - apenas controle de versão preparado para adicionar adaptador ao repositório estável de acordo com a documentação de desenvolvimento do adaptador",
-        "nl": "Geen wijzigingen - alleen versiebeheer voorbereid om adapter toe te voegen aan stabiele repository per ontwikkelingsdocumentatie voor adapter",
-        "fr": "Aucun changement - juste préparé la gestion des versions pour ajouter l'adaptateur au référentiel stable conformément à la documentation de développement de l'adaptateur",
-        "it": "Nessuna modifica: solo il controllo delle versioni preparato per aggiungere l'adattatore al repository stabile secondo la documentazione di sviluppo dell'adattatore",
-        "es": "Sin cambios: solo versiones preparadas para agregar el adaptador al repositorio estable según la documentación de desarrollo del adaptador",
-        "pl": "Bez zmian - po prostu przygotowałem wersję w celu dodania adaptera do stabilnego repozytorium zgodnie z dokumentacją rozwoju adaptera",
-        "zh-cn": "无需更改-只需准备版本，即可根据适配器开发文档将适配器添加到稳定的存储库中"
       }
     },
     "titleLang": {

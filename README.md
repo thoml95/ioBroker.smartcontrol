@@ -90,7 +90,7 @@ This is just to provide you an overview of the adapter options.
     Placeholder for the next version (at the beginning of the line):
     ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 1.3.1 (2022-10-20)
 * (simatec) (oelison) dark mode fix #5
 * (oelison) log info type error #16
 
