@@ -265,7 +265,7 @@ class SmartControl extends utils.Adapter {
             for (const lpRow of this.config.tableTargetDevices) {
                 if (!lpRow.active) continue;
                 if ('isTargetURL' in lpRow) continue; // do not create states for TargetURLs, since we create separately anyway.
-                if(/_enum-\d{1,3}$/.test(lpRow.name)) continue; // don't add enums
+                //if(/_enum-\d{1,3}$/.test(lpRow.name)) continue; // don't add enums
                 const lpStatePath = `${this.namespace}.targetDevices.${lpRow.name.trim()}`;
                 if (! this.x.helper.isStateIdValid(lpStatePath) ) throw(`Invalid state name portion provided in table 'Target Devices': '${lpRow.name}'`);
                 const lpCommon = { name: lpRow.name, type: 'boolean', read: true, write: true, role: 'switch', def: false };
