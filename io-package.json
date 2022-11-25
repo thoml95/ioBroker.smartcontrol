@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "smartcontrol",
-    "version": "1.3.1",
+    "version": "1.3.2",
     "news": {
+      "1.3.2": {
+        "en": "#19 problem with any web request solved\n#18 my contact added",
+        "de": "#19 problem mit jeder web-anfrage gelöst\n#18 mein kontakt hinzugefügt",
+        "ru": "#19 проблема с любым веб-запросом решена\n#18 мой контакт добавлен",
+        "pt": "#19 problema com qualquer pedido web resolvido\n#18 meu contato adicionado",
+        "nl": "19 probleem met elk web verzoek opgelost\n♪18 my contact toegevoegd",
+        "fr": "#19 problème avec toute demande web résolue\n#18 mon contact ajouté",
+        "it": "#19 problema con qualsiasi richiesta web risolto\n#18 il mio contatto aggiunto",
+        "es": "#19 problema con cualquier solicitud web resuelto\n#18 mi contacto añadido",
+        "pl": "zagadnienie 19 z wszelkimi żądaniami internetowymi\ndodało się dodać 18",
+        "uk": "#19 проблеми з будь-яким веб-запитом\n#18 мій контакт додано",
+        "zh-cn": "行动19 与任何网站要求解决的问题\n我的联络人"
+      },
       "1.3.1": {
         "en": "(oelison) dark mode fix #5\nlog info type error #16",
         "de": "(oelison) dunkler modus fix #5\nlog info type fehler #16",
@@ -77,18 +90,6 @@
         "es": "Solución: lo más probable es que finalmente solucione el problema # 43, así como una solución para el problema # 35",
         "pl": "Poprawka: najprawdopodobniej ostatecznie rozwiązuje problem nr 43, a także obejście problemu nr 35",
         "zh-cn": "修复：最有可能最终解决了问题43和问题35的解决方法"
-      },
-      "1.1.0": {
-        "en": "Improvement: if multiple motion sensors assigned to zone, zone will not switch off if any other motion sensor assigned to same zone is still motion=true",
-        "de": "Verbesserung: Wenn der Zone mehrere Bewegungsmelder zugewiesen sind, wird die Zone nicht ausgeschaltet, wenn ein anderer Bewegungsmelder, der derselben Zone zugewiesen ist, noch Bewegung=true ist",
-        "ru": "Исправлено: если несколько датчиков движения назначены зоне, зона не будет отключаться, если любой другой датчик движения, назначенный той же зоне, все еще движется = true",
-        "pt": "Correção: se vários sensores de movimento atribuídos à zona, a zona não desligará se qualquer outro sensor de movimento atribuído à mesma zona ainda for movimento = verdadeiro",
-        "nl": "Oplossing: als er meerdere bewegingssensoren zijn toegewezen aan een zone, wordt de zone niet uitgeschakeld als een andere bewegingssensor die aan dezelfde zone is toegewezen nog steeds beweging = waar is",
-        "fr": "Correction: si plusieurs capteurs de mouvement affectés à la zone, la zone ne s'éteindra pas si un autre capteur de mouvement affecté à la même zone est toujours en mouvement = vrai",
-        "it": "Risolto: se più sensori di movimento sono assegnati alla zona, la zona non si spegne se qualsiasi altro sensore di movimento assegnato alla stessa zona è ancora motion = true",
-        "es": "Solución: si se asignan varios sensores de movimiento a la zona, la zona no se apagará si cualquier otro sensor de movimiento asignado a la misma zona sigue siendo movimiento = verdadero",
-        "pl": "Poprawka: jeśli wiele czujników ruchu jest przypisanych do strefy, strefa nie wyłączy się, jeśli jakikolwiek inny czujnik ruchu przypisany do tej samej strefy jest nadal ruch = prawda",
-        "zh-cn": "修复：如果分配给区域的多个运动传感器，如果分配给同一区域的任何其他运动传感器仍然是motion = true，则区域将不会关闭"
       }
     },
     "titleLang": {

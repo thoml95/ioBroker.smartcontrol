@@ -90,7 +90,7 @@ This is just to provide you an overview of the adapter options.
     Placeholder for the next version (at the beginning of the line):
     ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 1.3.2 (2022-11-25)
 * (oelison) #19 problem with any web request solved
 * (oelison) #18 my contact added
 
