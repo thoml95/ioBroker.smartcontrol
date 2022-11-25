@@ -116,6 +116,7 @@
       "zh-cn": "控制设备更智能：通过分组（包括动作，打开窗口等）进行分组，并相应地设置目标设备"
     },
     "authors": [
+      "oelison <iobrokersmartcontrol(at)sciphy.de",
       "Mic-M <iob.micm@gmail.com>"
     ],
     "keywords": [
