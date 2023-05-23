@@ -49,9 +49,7 @@ class SmartControl extends utils.Adapter {
             Trigger:   require('./lib/trigger-class.js'), // Class for Triggers and Target devices handling
             mSuncalc:  require('suncalc2'),               // https://github.com/andiling/suncalc2
             mSchedule: require('node-schedule'),          // https://github.com/node-schedule/node-schedule
-            //ToDo: need to be replaced by axios
-            mGot:      require('@esm2cjs/got'),           // https://github.com/sindresorhus/got || This is a 'request' replacement due to https://nodesource.com/blog/express-going-into-maintenance-mode#alternativestorequest
-
+            axios:     require('axios').default,
             // {object} timers    - All timer objects.
             timersZoneOn: {},    // for option "onAfter" in Zones table
             timersZoneOff: {},    // for option "offAfter" in Zones table
@@ -281,12 +279,12 @@ class SmartControl extends utils.Adapter {
                 const statesToProcess = {
                     // state   | common object to set
                     'call_on':     { name: `Call '${lpRow.urlOn}'`,        type: 'boolean', read: true, write: true,  role: 'button', def: false },
-                    'response_on': { name: `Response from '${lpRow.urlOn}'`, type: 'string',  read: true, write: false, role: 'state', def: '' },
+                    'response': { name: `Response from '${lpRow.urlOn}'`, type: 'string',  read: true, write: false, role: 'state', def: '' },
                 };
 
                 if (lpRow.urlOff && !this.x.helper.isLikeEmpty(lpRow.urlOff)) {
                     statesToProcess.call_off     = { name: `Call '${lpRow.urlOff}'`,        type: 'boolean', read: true, write: true,  role: 'button', def: false };
-                    statesToProcess.response_off = { name: `Response from '${lpRow.urlOff}'`, type: 'string',  read: true, write: false, role: 'state', def: '' };
+                    //statesToProcess.response_off = { name: `Response from '${lpRow.urlOff}'`, type: 'string',  read: true, write: false, role: 'state', def: '' };
                 }
 
                 for (const lpKeyName in statesToProcess) {
@@ -809,7 +807,7 @@ class SmartControl extends utils.Adapter {
                     try {
                         this.log.debug(`Trying to call target URL (name: '${name}', URL: '${url}')`);
                         // @ts-ignore This expression is not callable.
-                        const response = await this.x.mGot(url); // This is a 'request' replacement due to https://nodesource.com/blog/express-going-into-maintenance-mode#alternativestorequest
+                        const response = await this.x.axios.get(url);
                         this.log.debug(`Calling target URL was successful (name: '${name}', URL: '${url}')`);
                         // Set response to state smartcontrol.x.targetURLs.xxxxxxx.response
                         if (this.x.helper.isLikeEmpty(response.body)) {
@@ -847,7 +845,12 @@ class SmartControl extends utils.Adapter {
                     if (lpTargetDeviceRow.onState == statePath && lpTargetDeviceRow.onValue == stateObject.val) {
 
                         // Set "linked" state.
-                        await this.setStateAsync(`targetDevices.${lpTargetDeviceRow.name}`, {val: true, ack: true });
+                        if (/_enum-\d{1,3}$/.test(lpTargetDeviceRow.name)) {
+                            this.log.debug('enum identified. No state set.');
+                        } else {
+                            this.log.debug('enum not identified');
+                            await this.setStateAsync(`targetDevices.${lpTargetDeviceRow.name}`, {val: true, ack: true });
+                        }
                         this.log.debug(`State '${statePath}' changed to '${stateObject.val}' -> '${this.namespace}.targetDevices.${lpTargetDeviceRow.name}' set to true.`);
 
                     } else if (lpTargetDeviceRow.offState == statePath && lpTargetDeviceRow.offValue == stateObject.val) {
@@ -904,7 +907,12 @@ class SmartControl extends utils.Adapter {
                         /**
                          * Second: Set "linked" state.
                          */
-                        await this.setStateAsync(`targetDevices.${lpTargetDeviceRow.name}`, {val: false, ack: true });
+                        if (/_enum-\d{1,3}$/.test(lpTargetDeviceRow.name)) {
+                            this.log.debug('Second: Set "linked" state. enum identified. No state set.');
+                        } else {
+                            this.log.debug('Second: Set "linked" state. enum not identified');
+                            await this.setStateAsync(`targetDevices.${lpTargetDeviceRow.name}`, {val: false, ack: true });
+                        }
                         this.log.debug(`State '${statePath}' changed to '${stateObject.val}' -> '${this.namespace}.targetDevices.${lpTargetDeviceRow.name}' set to false.`);
                     }
                 }
